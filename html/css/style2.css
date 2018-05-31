@@ -1,0 +1,126 @@
+.sfondo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dark-overlay {
+  height: 80vh;
+  width: 100vw;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.logo {
+  width: 40px;
+  margin-left: 50px;
+  margin-top: 40px;
+  cursor: pointer;
+  float: left;
+}
+
+.tasto-chiusura {
+  float: right;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  margin-right: -75px;
+  box-shadow: 0 3px 22px rgba(0, 0, 0, 0.35);
+}
+
+.tasto-chiusura img {
+  width: 15px;
+  height: 20px;
+  margin-top: 95px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.task-container {
+  width: 300px;
+  background-color: white;
+  margin-left: 150px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 35px;
+  padding-top: 25px;
+}
+
+/*.modifica {
+  display: none;
+}*/
+
+/*.task-container:hover .modifica{
+  display: block;
+  margin-left: 285px;
+  position: absolute;
+}*/
+
+.modifica--task-container{
+  position: absolute;
+  margin-left: 285px;
+  margin-top: -16px;
+}
+
+.modifica--task-container button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.modifica--task-container button img {
+  width: 25px;
+  padding: 2px;
+}
+
+.task-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.task-container h2 {
+  color: #FF7D6C;
+}
+
+.task-container h6 {
+  color: #FF7D6C;
+}
+
+.progressbar{
+  margin-top: 18px;
+  background-color: #FFD8D2;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  background-color: #FF7D6C;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.bottone--task-container {
+  background-color: white;
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: #FF7D6C;
+  cursor: pointer;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+/* --------------------------- RED SIDEBAR ------------------------------  *
